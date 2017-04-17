@@ -4,7 +4,7 @@ The purpose of this test is to see how you approach a problem and what the solut
 
 ## Problem
 
-Your task is to create a RESTful web service that takes an String input parameter for a product and return the lowest available price.  The price for comparison can be found by querying and comparing results from Best Buy and Walmart using the supplied API keys.  If there are multiple products, the lowest priced product should be returned.
+Your task is to create a RESTful web service that takes a product name query parameter and return the lowest current available price.  The price for comparison can be found by querying and comparing results from Best Buy and Walmart using the supplied API keys.  If there are multiple products, the lowest priced product should be returned.
 
 **Sample Request**
 ```
