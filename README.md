@@ -1,6 +1,6 @@
 # Blue Spurs Developer Test
 
-The purpose of this test is to see how you approach a problem and what the solution looks like.  
+The purpose of this test is to see how you approach a problem and what your solution looks like.  
 
 ## Problem
 
@@ -34,5 +34,5 @@ Walmart: `rm25tyum3p9jm9x9x7zxshfa`
 
 **Hints:**
 
-* Make it easy to look at and run
+* Make it easy to look at, run, and deploy
 * Treat the changes as if they were to be deployed to a production environment; we will be evaluating the solution and overall architecture
