@@ -36,3 +36,12 @@ Walmart: `rm25tyum3p9jm9x9x7zxshfa`
 
 * Make it easy to look at, run, and deploy
 * Treat the changes as if they were to be deployed to a production environment; we will be evaluating the solution and overall architecture
+
+
+* Build and Deployment instructions
+  1) Build(needs docker to be running):
+     ./mvnw clean package
+  2) Run in docker:
+     docker run -p 8080:8080 -t search:0.0.1-SNAPSHOT
+  3) Access api from browser:
+     http://localhost:8080/product/search?name=ipad
