@@ -38,13 +38,13 @@ Walmart: `rm25tyum3p9jm9x9x7zxshfa`
 * Treat the changes as if they were to be deployed to a production environment; we will be evaluating the solution and overall architecture
 
 
-* Build and Deployment instructions (must have java8 installed)
-  1) Two ways to build and run the app
-     Docker:
-       ./mvnw clean package dockerfile:build
-       docker run -p 8080:8080 -t search:0.0.1-SNAPSHOT
-     Java:
-       ./mvnw clean package
-       java -jar target/search-0.0.1-SNAPSHOT.war
-  3) Access api from browser:
-       http://localhost:8080/product/search?name=ipad
+## Build and Deployment instructions (must have java8 installed)
+* Two ways to build and run the app
+    - Docker:
+      - ./mvnw clean package dockerfile:build
+      - docker run -p 8080:8080 -t search:0.0.1-SNAPSHOT
+    - Java:
+      - ./mvnw clean package
+      - java -jar target/search-0.0.1-SNAPSHOT.war
+* Access api from browser:
+    - http://localhost:8080/product/search?name=ipad
